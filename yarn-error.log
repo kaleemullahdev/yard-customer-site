@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Moiz\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Moiz\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Moiz\AppData\Local\Programs\Python\Python310\;C:\Users\Moiz\AppData\Local\Microsoft\WindowsApps;C:\Users\Moiz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2021.3.1\bin;C:\Users\Moiz\AppData\Local\GitHubDesktop\bin;C:\Users\Moiz\AppData\Local\gitkraken\bin;C:\Users\Moiz\AppData\Local\Microsoft\WindowsApps;C:\Users\Moiz\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Moiz\AppData\Local\Yarn\Cache\v6\npm-@ardatan-aggregate-error-0.0.6-fe6924771ea40fc98dc7a7045c2e872dc8527609-integrity\node_modules\@ardatan\aggregate-error\AggregateError.d.ts' -> 'D:\Kaleem Workspace\yard-customer-site\node_modules\@ardatan\aggregate-error\AggregateError.d.ts'
+
+npm manifest: 
+  {
+    "name": "gatsby-starter-default",
+    "private": true,
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "version": "0.1.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "dependencies": {
+      "@material-ui/core": "^4.12.2",
+      "@material-ui/icons": "^4.11.2",
+      "eslint-config-react-app": "^6.0.0",
+      "gatsby": "^3.10.1",
+      "gatsby-plugin-gatsby-cloud": "^2.10.0",
+      "gatsby-plugin-image": "^1.10.1",
+      "gatsby-plugin-manifest": "^3.10.0",
+      "gatsby-plugin-offline": "^4.10.0",
+      "gatsby-plugin-react-helmet": "^4.10.0",
+      "gatsby-plugin-sharp": "^3.10.2",
+      "gatsby-source-filesystem": "^3.10.0",
+      "gatsby-transformer-sharp": "^3.10.0",
+      "prop-types": "^15.7.2",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-helmet": "^6.1.0",
+      "react-slick": "^0.28.1",
+      "slick-carousel": "^1.8.1",
+      "styled-components": "^5.3.0"
+    },
+    "devDependencies": {
+      "prettier": "2.3.2",
+      "yarn": "^1.22.10"
+    },
+    "keywords": [
+      "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+      "build": "gatsby build",
+      "dev": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+      "yarn": "yarn"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    },
+    "bugs": {
+      "url": "https://github.com/gatsbyjs/gatsby/issues"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

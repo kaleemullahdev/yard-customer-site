@@ -1,3 +1,4 @@
+import React from "react";
 import { AppLayout, YearRound } from "~/components";
 
 const YearRoundPage = () => {

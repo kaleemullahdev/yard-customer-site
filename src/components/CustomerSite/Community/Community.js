@@ -1,8 +1,8 @@
+import React from "react";
 import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import React from "react"
 import { CommunityCard } from "../Card";
 
 export const Community = () => {
@@ -28,7 +28,6 @@ export const Community = () => {
             spacing={3}
             justify="center"
             direction="column"
-            justify="center"
             alignItems="center"
           >
             <Grid item md={12} sm={12} xs={12} style={{ width: "100%" }}>

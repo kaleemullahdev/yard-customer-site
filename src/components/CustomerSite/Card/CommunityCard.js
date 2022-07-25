@@ -1,13 +1,10 @@
-import { useState } from "react";
+import React from "react";
 import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/CardMedia";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
-import React from "react"
 
 export const CommunityCard = ({ title, areaNames, cardStyle }) => {
-  const [showBackSide, setShowBackSide] = useState(false);
   return (
     <Card
       style={{

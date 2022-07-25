@@ -1,7 +1,7 @@
+import React from "react";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import React from "react"
 import { StyledTypography } from "./elements";
 
 const renderRowDirected = (headerText, headerImage, detail) => {

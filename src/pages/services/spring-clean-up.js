@@ -1,4 +1,5 @@
-import { AppLayout , SpringCleanUp } from "~/components";
+import React from "react";
+import { AppLayout, SpringCleanUp } from "~/components";
 
 const SpringCleanUpPage = () => {
   return (

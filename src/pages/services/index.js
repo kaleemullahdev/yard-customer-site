@@ -1,3 +1,4 @@
+import React from "react";
 import { Services, AppLayout } from "~/components";
 
 const ServicesPage = () => (

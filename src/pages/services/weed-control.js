@@ -1,4 +1,5 @@
-import { AppLayout, WeedControl} from "~/components";
+import React from "react";
+import { AppLayout, WeedControl } from "~/components";
 
 const WeedControlUpPage = () => {
   return (
